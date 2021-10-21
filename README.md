@@ -1,7 +1,7 @@
 # DumpTruckDYNAMIC_NewmarkIntegration
 Dynamic analysis of dumping truck mechanism actuated by a massless hydraulic actuator (which imposes a prescribed displacement as a function of time) which evolves in the plane. 
 
-The analysis begins with the kinematics of the unloading process. The links are RIGID (neglecting friction in the joints) and the center of mass at the middle of point of the links. 
+The analysis begins with the kinematics of the unloading process. The links are rigid and neglecting friction in the joints. The center of mass is located at the middle point of the links. 
 The prescribed displacement for the actuator is imposed in the form La = f(t). The mechanism in initially at rest.
 
 Develop the coefficients of a 3rd order polynomial to represent the actuator as a function of time, when the initial conditions are given for position and velocities. Parameterize the code.
